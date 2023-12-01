@@ -1,5 +1,3 @@
-import re
-
 spelled_digits = {
     'one': '1',
     'two': '2',
@@ -41,7 +39,6 @@ def main():
             result += int(str(first) + str(last))
 
     print(result)
-
 
 if __name__ == "__main__":
     main()
