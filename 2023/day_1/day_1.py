@@ -23,7 +23,7 @@ def first_and_last(input_string):
 def part_two_conversion(line):
     
     for word, digit in spelled_digits.items():
-        line = line.replace(word[:-1], digit)
+        line = line.replace(word, word[0] + digit + word[-1])
 
     return line
 
